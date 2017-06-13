@@ -1,0 +1,388 @@
+    
+html, body
+{ height: 100%; width: 100%; margin: 0; font-family:"Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", "Helvetica", "sans-serif"; }
+
+#textcol a {
+    float: none !important;
+    padding: 0;
+    margin: 0;
+}
+.cta {
+    text-align: left;
+}
+
+h4 { font-weight:normal;}
+h3 { font-weight:normal;}
+h2 { font-weight:normal;}
+p { font-weight: bold;
+    font-size: 23px;
+}
+    
+.cta-link {
+    float: none !important; 
+    color: #1DBE56 !important;
+    padding-left: 0px !important;
+}    
+    
+#cta {
+    position: absolute;
+    left: 70%;
+    top: 5%;
+}
+
+
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake,
+.shake{
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 1.5s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.shake:hover,
+.shake:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+     animation-play-state: paused;
+}
+    
+}
+#container {
+    position: relative;
+        margin: auto;
+        display: block;
+        width: 100%;
+        min-height: 500px;
+        height: 100%;
+
+}
+
+#header {
+    position: absolute;
+    height: 11%;
+    min-height: 40px;
+    width: 90%;
+    min-width: 300px;
+    margin: auto;
+    }
+
+#sponsor {
+    display: block;
+    float: left;
+    width: 100%;
+    background-color:white;
+    margin: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#sponsortu img {
+    display: block;
+    float: left;
+    width:65%;
+    background-color:;
+    margin: 1%;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    
+}
+#sponsor img {
+    width: 100%;
+    padding: 5px;
+    height: auto;
+    margin: auto;
+    
+}
+    
+#title {
+    position: absolute;
+    float: left;
+    background-color:#ffd633;
+    min-height: 25px;
+    min-width: 150px;
+    margin: 20px;
+    width: 40%;
+    max-width: 344px;
+    }
+    
+#title2 {
+    position: absolute;
+    background-color:red;
+    height:30%;
+    min-width: 300px;
+    margin: auto;
+    margin-left: 25%;
+    margin-top:30%;
+    width: 40%;
+    }
+    
+#textindex {
+    margin: auto;
+    width: 30%;
+    height: 20%;
+    
+}
+
+#texttitle {
+
+    margin-left: 13px;
+
+}
+
+#indextextimg {
+    width: 300px;
+}
+    
+#span {
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: normal;
+}
+
+a:link {
+    float: right;
+    margin-right: 20px;
+    color: black;
+    margin-bottom: 10px;
+    padding-left:  20px;
+
+}
+
+a:img {
+    float: left;
+    margin-right: 20px;
+    color: black;
+    margin-bottom: 10px;
+    padding-left:  20px;
+
+}
+
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+ul a {
+    display: inline-block;
+}
+
+a.indexa :link {
+    float: left;
+    margin-right: 5px;
+    color: black;
+    margin-bottom: 10px;
+    padding-left:  5px;
+}
+
+#hreflink {
+    float: none;
+    margin-right: 0px;
+    margin-top: 0px;
+    color: black;
+
+    padding-left:  0px;
+    margin-bottom: 0px;
+}
+    
+#tab {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 70%;
+    min-height: 30px;
+    width: 55%;
+    }
+
+#middle {
+    overflow: hidden;
+    height: 50%;
+    min-height: 50px;
+    width: 100%;
+    min-width: 100px;
+    margin: auto;
+    margin-bottom: 8px;
+    max-height:600px;
+    }
+    
+    
+    
+#middle_index {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 8px;
+    }
+    
+#imgmiddle_index {
+    height: 100%;
+    margin:auto;
+    min-height: 700px;
+
+}
+
+
+    
+#middleproject {
+    position: relative;
+    height: 90%;
+    min-height: 50px;
+    width: 90%;
+    min-width: 100px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    }
+
+#imgmiddlecolumn {
+    overflow: hidden;
+    float: left;
+    min-height: 30px;
+    width: 40%;
+    margin-top: 40px;
+    }
+    
+#imgmiddle {
+    min-width: 700px;
+    width: 100%;
+}
+
+#imgmiddle_sketch {
+    min-width: 800px;
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+#imgproject {
+    min-width: 200px;
+    bottom: 0px;
+    float: left;
+    width: 100%;
+    margin-bottom: 6px;
+    } 
+
+#textcol    {
+
+    height: 100%;
+    min-height: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    }
+    
+
+#news_index {
+    display: block;
+    position: fixed;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    background-color: white;
+}
+    
+#textcolproject    {
+    height: 20%;
+    min-height: 40px;
+    width: 55%;
+    margin: auto;
+    margin-top: 22px;
+    text-align: justify;
+    }
+    
+#text {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 100%;
+    max-width: 800px;
+    padding-left: 80px; 
+    line-height: 35px;
+
+}
+
+#brief {
+    display: block;
+    float: left;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    height:16px;
+    width: auto;
+}
+
+#newstitle {
+    display: block;
+    float: left;
+    width: auto;
+}
+
+#imgnews {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    height: auto;
+    padding-left: 100;
+}
+
+
+#index {
+    display: block;
+    float: left;
+    width: 90px;
+    margin-top: 93px;
+    
+}
+
+#textproject {
+    float: right;
+    font-weight: lighter;
+    width: 100%;
+    max-width: 500px;
+}
+
+#footer    {
+    display: block;
+    margin: auto;
+    margin-bottom: -10px;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+    background-color: white;
+    }
+    
+#contactimage img {
+        display: block;
+        margin: auto;
+        width: 90%;
+}
+
+#textnewsdiv {
+    margin: 13px;
+}
+
