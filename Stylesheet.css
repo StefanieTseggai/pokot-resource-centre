@@ -30,6 +30,19 @@ p { font-weight: bold;
     top: 5%;
 }
 
+#index #navigation {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+#index #navigation li a {
+    font-size: 1.17em;
+}
+
+#index a {
+    text-decoration: none;
+}
 
 @-webkit-keyframes spaceboots {
 	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
@@ -354,7 +367,7 @@ a.indexa :link {
 #index {
     display: block;
     float: left;
-    width: 90px;
+    width: 200px;
     margin-top: 93px;
     
 }
